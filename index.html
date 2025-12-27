@@ -2,22 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Catch The Box Game</title>
+    <title>Snake Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>🎯 Catch The Box</h1>
+    <h1>🐍 Snake Game</h1>
     <p>Score: <span id="score">0</span></p>
-    <p>Time Left: <span id="time">30</span>s</p>
 
-    <div id="gameArea">
-        <div id="box"></div>
-    </div>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
 
-    <button onclick="startGame()">Start Game</button>
+    <p>Use Arrow Keys to Move</p>
 
     <script src="script.js"></script>
 </body>
 </html>
-
